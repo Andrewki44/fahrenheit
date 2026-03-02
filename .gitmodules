@@ -16,9 +16,6 @@
 [submodule "tools/dedit"]
 	path = core/dedit
 	url = https://github.com/fahrenheit-crew/fh-tools-dedit
-[submodule "tools/step"]
-	path = core/step
-	url = https://github.com/fahrenheit-crew/fh-tools-step
 [submodule "tools/atelier"]
 	path = core/atelier
 	url = https://github.com/fahrenheit-crew/fh-tools-atelier
