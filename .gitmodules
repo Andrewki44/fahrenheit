@@ -13,9 +13,6 @@
 [submodule "mods/efp"]
 	path = mods/efp
 	url = https://github.com/fahrenheit-crew/fh-mods-efp
-[submodule "tools/dedit"]
-	path = core/dedit
-	url = https://github.com/fahrenheit-crew/fh-tools-dedit
 [submodule "tools/atelier"]
 	path = core/atelier
 	url = https://github.com/fahrenheit-crew/fh-tools-atelier
