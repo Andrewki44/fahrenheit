@@ -27,10 +27,5 @@
     <Platform Solution="*|ARM64" Project="x64" />
   </Project>
   <Project Path="core/step/Fahrenheit.Tools.STEP.csproj" />
-  <Project Path="mods/csr/Fahrenheit.Mods.CSR.csproj" />
-  <Project Path="mods/dbg/Fahrenheit.Mods.Debug.csproj" />
-  <Project Path="mods/efp/Fahrenheit.Mods.EFP.csproj" />
-  <Project Path="mods/template/Fahrenheit.Mods.Template.csproj" />
-  <Project Path="mods/truerng/Fahrenheit.Mods.TrueRNG.csproj" />
   <Project Path="test/Fahrenheit.Tests.csproj" />
 </Solution>
