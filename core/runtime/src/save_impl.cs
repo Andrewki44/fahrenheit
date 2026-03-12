@@ -187,6 +187,8 @@ public unsafe sealed class FhSaveExtensionModule : FhModule {
     private void impl_copy() {
         _handle_copy.orig_fptr();
         _lsm!.state_load_slot(_load_pending_slot);
+
+        FhApi.Events.Common.GameLoop.PostLoadGame.invoke(new() { save_slot_idx = _load_pending_slot });
     }
 
     /// <summary>

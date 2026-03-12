@@ -46,7 +46,7 @@ public sealed record FhLocalStateInfo(
 [Flags]
 public enum FhManifestFlags {
     NONE           = 0,
-    SEPARATE_SAVES = 1
+    SEPARATE_SAVES = 1,
 }
 
 /// <summary>
@@ -113,16 +113,6 @@ public abstract class FhModule {
     ///     The stream only lasts for the duration of this call, and the framework cleans it up.
     /// </summary>
     public virtual void load_local_state(FileStream local_state_file, FhLocalStateInfo local_state_info) { }
-
-    /// <summary>
-    ///     Called before every main loop execution.
-    /// </summary>
-    public virtual void pre_update() { }
-
-    /// <summary>
-    ///     Called after every main loop execution.
-    /// </summary>
-    public virtual void post_update() { }
 
     /// <summary>
     ///     Called just before <see cref="TerraFX.Interop.DirectX.IDXGISwapChain.Present"/> time.
